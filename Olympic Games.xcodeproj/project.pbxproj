@@ -1,0 +1,719 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F040FC7E2A2BEAAB00A318B4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F040FC7D2A2BEAAB00A318B4 /* Kingfisher */; };
+		F06B90182B645704008E785A /* SeasonSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06B90172B645704008E785A /* SeasonSelectorView.swift */; };
+		F0772E172B5738EB00850309 /* CountryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0772E162B5738EB00850309 /* CountryDetailView.swift */; };
+		F0D961402B5ADED600FFFEC8 /* CountryMedal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D9613F2B5ADED600FFFEC8 /* CountryMedal.swift */; };
+		F0FE8D0F2A2B42B700E5ABB2 /* Olympic_GamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE8D0E2A2B42B700E5ABB2 /* Olympic_GamesApp.swift */; };
+		F0FE8D112A2B42B700E5ABB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE8D102A2B42B700E5ABB2 /* ContentView.swift */; };
+		F0FE8D132A2B42B900E5ABB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0FE8D122A2B42B900E5ABB2 /* Assets.xcassets */; };
+		F0FE8D172A2B42B900E5ABB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0FE8D162A2B42B900E5ABB2 /* Preview Assets.xcassets */; };
+		F0FE8D212A2B42B900E5ABB2 /* Olympic_GamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE8D202A2B42B900E5ABB2 /* Olympic_GamesTests.swift */; };
+		F0FE8D2B2A2B42B900E5ABB2 /* Olympic_GamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE8D2A2A2B42B900E5ABB2 /* Olympic_GamesUITests.swift */; };
+		F0FE8D2D2A2B42B900E5ABB2 /* Olympic_GamesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE8D2C2A2B42B900E5ABB2 /* Olympic_GamesUITestsLaunchTests.swift */; };
+		F0FE8D3D2A2B433A00E5ABB2 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE8D3C2A2B433A00E5ABB2 /* NetworkManager.swift */; };
+		F0FE8D3F2A2B944100E5ABB2 /* Medals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE8D3E2A2B944100E5ABB2 /* Medals.swift */; };
+		F0FE8D422A2B94F400E5ABB2 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F0FE8D412A2B94F400E5ABB2 /* Alamofire */; };
+		F0FE8D442A2B988900E5ABB2 /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE8D432A2B988900E5ABB2 /* CountryListView.swift */; };
+		F0FE8D462A2BDCB700E5ABB2 /* ProgressBarComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE8D452A2BDCB700E5ABB2 /* ProgressBarComponentView.swift */; };
+		F0FE8D482A2BDDA400E5ABB2 /* CountryLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FE8D472A2BDDA400E5ABB2 /* CountryLineView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0FE8D1D2A2B42B900E5ABB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0FE8D032A2B42B700E5ABB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0FE8D0A2A2B42B700E5ABB2;
+			remoteInfo = "Olympic Games";
+		};
+		F0FE8D272A2B42B900E5ABB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0FE8D032A2B42B700E5ABB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0FE8D0A2A2B42B700E5ABB2;
+			remoteInfo = "Olympic Games";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F06B90172B645704008E785A /* SeasonSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeasonSelectorView.swift; sourceTree = "<group>"; };
+		F0772E162B5738EB00850309 /* CountryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailView.swift; sourceTree = "<group>"; };
+		F0D9613F2B5ADED600FFFEC8 /* CountryMedal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryMedal.swift; sourceTree = "<group>"; };
+		F0FE8D0B2A2B42B700E5ABB2 /* Olympic Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Olympic Games.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FE8D0E2A2B42B700E5ABB2 /* Olympic_GamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympic_GamesApp.swift; sourceTree = "<group>"; };
+		F0FE8D102A2B42B700E5ABB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F0FE8D122A2B42B900E5ABB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0FE8D142A2B42B900E5ABB2 /* Olympic_Games.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Olympic_Games.entitlements; sourceTree = "<group>"; };
+		F0FE8D162A2B42B900E5ABB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F0FE8D1C2A2B42B900E5ABB2 /* Olympic GamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Olympic GamesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FE8D202A2B42B900E5ABB2 /* Olympic_GamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympic_GamesTests.swift; sourceTree = "<group>"; };
+		F0FE8D262A2B42B900E5ABB2 /* Olympic GamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Olympic GamesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0FE8D2A2A2B42B900E5ABB2 /* Olympic_GamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympic_GamesUITests.swift; sourceTree = "<group>"; };
+		F0FE8D2C2A2B42B900E5ABB2 /* Olympic_GamesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Olympic_GamesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F0FE8D3C2A2B433A00E5ABB2 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F0FE8D3E2A2B944100E5ABB2 /* Medals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medals.swift; sourceTree = "<group>"; };
+		F0FE8D432A2B988900E5ABB2 /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
+		F0FE8D452A2BDCB700E5ABB2 /* ProgressBarComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarComponentView.swift; sourceTree = "<group>"; };
+		F0FE8D472A2BDDA400E5ABB2 /* CountryLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryLineView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0FE8D082A2B42B700E5ABB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F040FC7E2A2BEAAB00A318B4 /* Kingfisher in Frameworks */,
+				F0FE8D422A2B94F400E5ABB2 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FE8D192A2B42B900E5ABB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FE8D232A2B42B900E5ABB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0FE8D022A2B42B700E5ABB2 = {
+			isa = PBXGroup;
+			children = (
+				F0FE8D0D2A2B42B700E5ABB2 /* Olympic Games */,
+				F0FE8D1F2A2B42B900E5ABB2 /* Olympic GamesTests */,
+				F0FE8D292A2B42B900E5ABB2 /* Olympic GamesUITests */,
+				F0FE8D0C2A2B42B700E5ABB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0FE8D0C2A2B42B700E5ABB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE8D0B2A2B42B700E5ABB2 /* Olympic Games.app */,
+				F0FE8D1C2A2B42B900E5ABB2 /* Olympic GamesTests.xctest */,
+				F0FE8D262A2B42B900E5ABB2 /* Olympic GamesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0FE8D0D2A2B42B700E5ABB2 /* Olympic Games */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE8D3B2A2B431400E5ABB2 /* ViewModel */,
+				F0FE8D3A2A2B42F800E5ABB2 /* View */,
+				F0FE8D392A2B42EA00E5ABB2 /* Model */,
+				F0FE8D0E2A2B42B700E5ABB2 /* Olympic_GamesApp.swift */,
+				F0FE8D102A2B42B700E5ABB2 /* ContentView.swift */,
+				F0FE8D122A2B42B900E5ABB2 /* Assets.xcassets */,
+				F0FE8D142A2B42B900E5ABB2 /* Olympic_Games.entitlements */,
+				F0FE8D152A2B42B900E5ABB2 /* Preview Content */,
+			);
+			path = "Olympic Games";
+			sourceTree = "<group>";
+		};
+		F0FE8D152A2B42B900E5ABB2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE8D162A2B42B900E5ABB2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F0FE8D1F2A2B42B900E5ABB2 /* Olympic GamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE8D202A2B42B900E5ABB2 /* Olympic_GamesTests.swift */,
+			);
+			path = "Olympic GamesTests";
+			sourceTree = "<group>";
+		};
+		F0FE8D292A2B42B900E5ABB2 /* Olympic GamesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE8D2A2A2B42B900E5ABB2 /* Olympic_GamesUITests.swift */,
+				F0FE8D2C2A2B42B900E5ABB2 /* Olympic_GamesUITestsLaunchTests.swift */,
+			);
+			path = "Olympic GamesUITests";
+			sourceTree = "<group>";
+		};
+		F0FE8D392A2B42EA00E5ABB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE8D3E2A2B944100E5ABB2 /* Medals.swift */,
+				F0D9613F2B5ADED600FFFEC8 /* CountryMedal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F0FE8D3A2A2B42F800E5ABB2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE8D432A2B988900E5ABB2 /* CountryListView.swift */,
+				F0FE8D452A2BDCB700E5ABB2 /* ProgressBarComponentView.swift */,
+				F0FE8D472A2BDDA400E5ABB2 /* CountryLineView.swift */,
+				F0772E162B5738EB00850309 /* CountryDetailView.swift */,
+				F06B90172B645704008E785A /* SeasonSelectorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0FE8D3B2A2B431400E5ABB2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F0FE8D3C2A2B433A00E5ABB2 /* NetworkManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0FE8D0A2A2B42B700E5ABB2 /* Olympic Games */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FE8D302A2B42B900E5ABB2 /* Build configuration list for PBXNativeTarget "Olympic Games" */;
+			buildPhases = (
+				F0FE8D072A2B42B700E5ABB2 /* Sources */,
+				F0FE8D082A2B42B700E5ABB2 /* Frameworks */,
+				F0FE8D092A2B42B700E5ABB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Olympic Games";
+			packageProductDependencies = (
+				F0FE8D412A2B94F400E5ABB2 /* Alamofire */,
+				F040FC7D2A2BEAAB00A318B4 /* Kingfisher */,
+			);
+			productName = "Olympic Games";
+			productReference = F0FE8D0B2A2B42B700E5ABB2 /* Olympic Games.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0FE8D1B2A2B42B900E5ABB2 /* Olympic GamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FE8D332A2B42B900E5ABB2 /* Build configuration list for PBXNativeTarget "Olympic GamesTests" */;
+			buildPhases = (
+				F0FE8D182A2B42B900E5ABB2 /* Sources */,
+				F0FE8D192A2B42B900E5ABB2 /* Frameworks */,
+				F0FE8D1A2A2B42B900E5ABB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0FE8D1E2A2B42B900E5ABB2 /* PBXTargetDependency */,
+			);
+			name = "Olympic GamesTests";
+			productName = "Olympic GamesTests";
+			productReference = F0FE8D1C2A2B42B900E5ABB2 /* Olympic GamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0FE8D252A2B42B900E5ABB2 /* Olympic GamesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FE8D362A2B42B900E5ABB2 /* Build configuration list for PBXNativeTarget "Olympic GamesUITests" */;
+			buildPhases = (
+				F0FE8D222A2B42B900E5ABB2 /* Sources */,
+				F0FE8D232A2B42B900E5ABB2 /* Frameworks */,
+				F0FE8D242A2B42B900E5ABB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0FE8D282A2B42B900E5ABB2 /* PBXTargetDependency */,
+			);
+			name = "Olympic GamesUITests";
+			productName = "Olympic GamesUITests";
+			productReference = F0FE8D262A2B42B900E5ABB2 /* Olympic GamesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0FE8D032A2B42B700E5ABB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F0FE8D0A2A2B42B700E5ABB2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F0FE8D1B2A2B42B900E5ABB2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F0FE8D0A2A2B42B700E5ABB2;
+					};
+					F0FE8D252A2B42B900E5ABB2 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F0FE8D0A2A2B42B700E5ABB2;
+					};
+				};
+			};
+			buildConfigurationList = F0FE8D062A2B42B700E5ABB2 /* Build configuration list for PBXProject "Olympic Games" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0FE8D022A2B42B700E5ABB2;
+			packageReferences = (
+				F0FE8D402A2B94F400E5ABB2 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F040FC7C2A2BEAAB00A318B4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = F0FE8D0C2A2B42B700E5ABB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0FE8D0A2A2B42B700E5ABB2 /* Olympic Games */,
+				F0FE8D1B2A2B42B900E5ABB2 /* Olympic GamesTests */,
+				F0FE8D252A2B42B900E5ABB2 /* Olympic GamesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0FE8D092A2B42B700E5ABB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FE8D172A2B42B900E5ABB2 /* Preview Assets.xcassets in Resources */,
+				F0FE8D132A2B42B900E5ABB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FE8D1A2A2B42B900E5ABB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FE8D242A2B42B900E5ABB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0FE8D072A2B42B700E5ABB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06B90182B645704008E785A /* SeasonSelectorView.swift in Sources */,
+				F0FE8D442A2B988900E5ABB2 /* CountryListView.swift in Sources */,
+				F0FE8D3D2A2B433A00E5ABB2 /* NetworkManager.swift in Sources */,
+				F0FE8D482A2BDDA400E5ABB2 /* CountryLineView.swift in Sources */,
+				F0D961402B5ADED600FFFEC8 /* CountryMedal.swift in Sources */,
+				F0FE8D3F2A2B944100E5ABB2 /* Medals.swift in Sources */,
+				F0772E172B5738EB00850309 /* CountryDetailView.swift in Sources */,
+				F0FE8D462A2BDCB700E5ABB2 /* ProgressBarComponentView.swift in Sources */,
+				F0FE8D112A2B42B700E5ABB2 /* ContentView.swift in Sources */,
+				F0FE8D0F2A2B42B700E5ABB2 /* Olympic_GamesApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FE8D182A2B42B900E5ABB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FE8D212A2B42B900E5ABB2 /* Olympic_GamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FE8D222A2B42B900E5ABB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FE8D2D2A2B42B900E5ABB2 /* Olympic_GamesUITestsLaunchTests.swift in Sources */,
+				F0FE8D2B2A2B42B900E5ABB2 /* Olympic_GamesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0FE8D1E2A2B42B900E5ABB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0FE8D0A2A2B42B700E5ABB2 /* Olympic Games */;
+			targetProxy = F0FE8D1D2A2B42B900E5ABB2 /* PBXContainerItemProxy */;
+		};
+		F0FE8D282A2B42B900E5ABB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0FE8D0A2A2B42B700E5ABB2 /* Olympic Games */;
+			targetProxy = F0FE8D272A2B42B900E5ABB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F0FE8D2E2A2B42B900E5ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0FE8D2F2A2B42B900E5ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F0FE8D312A2B42B900E5ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Olympic Games/Olympic_Games.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Olympic Games/Preview Content\"";
+				DEVELOPMENT_TEAM = 64858WLU65;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bindamen.Olympic-Games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0FE8D322A2B42B900E5ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Olympic Games/Olympic_Games.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Olympic Games/Preview Content\"";
+				DEVELOPMENT_TEAM = 64858WLU65;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bindamen.Olympic-Games";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0FE8D342A2B42B900E5ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64858WLU65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bindamen.Olympic-GamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olympic Games.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Olympic Games";
+			};
+			name = Debug;
+		};
+		F0FE8D352A2B42B900E5ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64858WLU65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bindamen.Olympic-GamesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Olympic Games.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Olympic Games";
+			};
+			name = Release;
+		};
+		F0FE8D372A2B42B900E5ABB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64858WLU65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bindamen.Olympic-GamesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Olympic Games";
+			};
+			name = Debug;
+		};
+		F0FE8D382A2B42B900E5ABB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 64858WLU65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Bindamen.Olympic-GamesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Olympic Games";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0FE8D062A2B42B700E5ABB2 /* Build configuration list for PBXProject "Olympic Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FE8D2E2A2B42B900E5ABB2 /* Debug */,
+				F0FE8D2F2A2B42B900E5ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0FE8D302A2B42B900E5ABB2 /* Build configuration list for PBXNativeTarget "Olympic Games" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FE8D312A2B42B900E5ABB2 /* Debug */,
+				F0FE8D322A2B42B900E5ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0FE8D332A2B42B900E5ABB2 /* Build configuration list for PBXNativeTarget "Olympic GamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FE8D342A2B42B900E5ABB2 /* Debug */,
+				F0FE8D352A2B42B900E5ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0FE8D362A2B42B900E5ABB2 /* Build configuration list for PBXNativeTarget "Olympic GamesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FE8D372A2B42B900E5ABB2 /* Debug */,
+				F0FE8D382A2B42B900E5ABB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F040FC7C2A2BEAAB00A318B4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		F0FE8D402A2B94F400E5ABB2 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F040FC7D2A2BEAAB00A318B4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F040FC7C2A2BEAAB00A318B4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		F0FE8D412A2B94F400E5ABB2 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F0FE8D402A2B94F400E5ABB2 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F0FE8D032A2B42B700E5ABB2 /* Project object */;
+}
