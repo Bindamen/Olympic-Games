@@ -19,6 +19,7 @@ class NetworkManager: ObservableObject {
     @Published var medals = [Medal]()
     @Published var loading = false
     @Published var stateSeasonSelect: String = "winter/2022/"
+    @Published var showErrorAlert = false
     private let api_key = ""
     private let api_url_base = "https://site.api.espn.com/apis/site/v2/olympics/"
     private let api_url_end = "medals"
@@ -50,6 +51,7 @@ class NetworkManager: ObservableObject {
                         self.loading = false
                         print("Loading")
                         print("\(self.api_url_base)\(self.stateSeasonSelect)\(self.api_url_end)")
+                        print(self.medals.count)
                     }
                 case .failure(let error):
                     // Handle Alamofire request error
@@ -69,12 +71,21 @@ class NetworkManager: ObservableObject {
                         self.loading = false
                         print("Reload")
                         print("\(self.api_url_base)\(self.stateSeasonSelect)\(self.api_url_end)")
+                        print(self.medals.count)
                     }
                 case .failure(let error):
                     // Handle Alamofire request error
                     print("Alamofire request error: \(error)")
-
+                    
+                    // Display a message to the user
+                    // For example, you can use an alert or update a property to trigger a message in your view
+                    // Example using an alert:
+                    DispatchQueue.main.async {
+                        // Set a flag to trigger showing the alert in your view
+                        self.showErrorAlert = true
+                    }
                 }
         }
     }
+
 }

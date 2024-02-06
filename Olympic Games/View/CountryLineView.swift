@@ -17,43 +17,48 @@ struct CountryLineView: View {
             if networkManager.loading {
                // ProgressBarComponentView()
             } else {
-                if index >= 0 {
+               // ForEach(0..<networkManager.medals.count, id:\.self){ i in
+                    
                     HStack (alignment: .center, spacing: 12){
-                        KFImage(URL(string: networkManager.medals[index].flag.href))
-                            .resizable()
-                            .scaledToFit()
-                            .frame(height: 50)
-                            .padding(.trailing)
-                        Text(networkManager.medals[index].name)
-                            .font(.headline)
-                            .multilineTextAlignment(.leading)
-                        Spacer()
-                        
-                        VStack{
-                            Image("gold")
+                        if !networkManager.medals.isEmpty && index < networkManager.medals.count {
+                            KFImage(URL(string: networkManager.medals[index].flag.href))
                                 .resizable()
                                 .scaledToFit()
-                                .frame(width: 30)
-                            Image("silver")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 30)
-                            Image("bronze")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 30)
+                                .frame(height: 50)
+                                .padding(.trailing)
+                            Text(networkManager.medals[index].name)
+                                .font(.headline)
+                                .multilineTextAlignment(.leading)
+                            Spacer()
+                            
+                            VStack{
+                                Image("gold")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 30)
+                                Image("silver")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 30)
+                                Image("bronze")
+                                    .resizable()
+                                    .scaledToFit()
+                                    .frame(width: 30)
+                            }
+                            VStack(alignment: .trailing, spacing: 18){
+                                Text("\(CGFloat(networkManager.medals[index].medalStandings.goldMedalCount),specifier: "%.0f")")
+                                    .font(.footnote)
+                                    .multilineTextAlignment(.trailing)
+                                Text("\(CGFloat(networkManager.medals[index].medalStandings.silverMedalCount),specifier: "%.0f")")
+                                    .font(.footnote)
+                                    .multilineTextAlignment(.trailing)
+                                Text("\(CGFloat(networkManager.medals[index].medalStandings.bronzeMedalCount),specifier: "%.0f")")
+                                    .font(.footnote)
+                                    .multilineTextAlignment(.trailing)
+                            }
                         }
-                        VStack(alignment: .trailing, spacing: 18){
-                            Text("\(CGFloat(networkManager.medals[index].medalStandings.goldMedalCount),specifier: "%.0f")")
-                                .font(.footnote)
-                                .multilineTextAlignment(.trailing)
-                            Text("\(CGFloat(networkManager.medals[index].medalStandings.silverMedalCount),specifier: "%.0f")")
-                                .font(.footnote)
-                                .multilineTextAlignment(.trailing)
-                            Text("\(CGFloat(networkManager.medals[index].medalStandings.bronzeMedalCount),specifier: "%.0f")")
-                                .font(.footnote)
-                                .multilineTextAlignment(.trailing)
-                        }
+
+
                     }
                     
                     .padding()
@@ -62,12 +67,12 @@ struct CountryLineView: View {
                     
                     .padding(.vertical,2)
 
-                } else {
-                    Text("Index issue")
                 }
                     
+                
+                    
               
-            }
+          //  }
         }
     }
 }
